@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Project</title>
+        <style>
+            .login_box{
+            
+                padding: 30px;
+                border-radius: 10px;
+                background-color: rgba(51, 184, 184, 0.568);
+                width: 280px; 
+                height: 300px; 
+                position: absolute;
+                top: 200px;
+                right: 630px;
+                opacity: 0.95;
+            }
+            .login_box input{
+                
+                border-radius: 4px;
+            }
+           
+            .log_in{
+                position: relative;
+                left: 80px;
+                
+            }
+            .forgot{
+
+                position: relative;
+                left: 120px;
+            }
+            .butt{
+                
+                position: relative;
+                left: 80px;
+            }
+            .up{
+                position: relative;
+                left: 40px;
+                
+            }
+            body{
+                background-image: url(wallp.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="login_box">
+            <form>
+                <div class="log_in"> <h2>Login</h2></div>
+               
+                <label for="name">Username:</label>
+                <input type="text" name="name" placeholder=" email or phone">
+                <br><br>
+                <label for="password">Password :</label>
+                <input type="password" name="password" placeholder=" password">
+                <br>
+                <div class="forgot">
+                    <a href="">forgot password?</a>
+                </div>
+                <br>
+                <div class="butt">
+                    <button type="submit">Login</button>
+                </div>
+                <br>
+                ----------------------or----------------------
+                <br><br>
+                <div class="up">
+                    <a href=""><h3>Create new account</h3></a>
+                </div>
+                
+            </form>
+            
+
+        </div>
+    </body>
+</html>
